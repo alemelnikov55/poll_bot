@@ -20,6 +20,8 @@ core/redisdata/
 
 poll_bott_project
 
+.deploy
+
 **/credentials.json
 **/*.pem
-**/*.key
+**/*.keycore/.deploy

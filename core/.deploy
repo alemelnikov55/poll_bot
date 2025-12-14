@@ -1,4 +1,0 @@
-docker run --name wish_list --restart always -e POSTGRES_PASSWORD=pwd_4358 -e POSTGRES_USER=wish_bot_usr -e POSTGRES_DB=wish_list -d -p 5434:5432 -v /home/alex/volumes_alex/wish_list postgres
-
-
-docker run --name poll_stable --restart always -e POSTGRES_PASSWORD=pwd_4358 -e POSTGRES_USER=poll_bot_usr -e POSTGRES_DB=my_database -d -p 5434:5432 -v /home/alex/volumes_alex/poll_stable postgres
