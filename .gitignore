@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Env secrets
+.env
+core/.env
+
+# Docker volumes
+core/pgdata/
+core/redisdata/
+
+# Logs
+*.log
+
+poll_bott_project
+
+**/credentials.json
+**/*.pem
+**/*.key
